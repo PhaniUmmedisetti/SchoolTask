@@ -96,7 +96,6 @@ public class TeacherRepository : BaseRepository, ITeacherRepository
        WHERE st.student_id = @Id";
 
 
-
         using (var con = NewConnection)
         {
 
